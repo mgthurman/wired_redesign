@@ -21,9 +21,11 @@ li {
 	line-height: 16px;
 }
 .top-border {
-	color: #000000;
 	width: 216px;
 	height: 3px;
+	border-bottom: 3px solid #000000;
+	margin: 0 0 20px 0;
+	padding: 0 0 10px 0;
 }
 .category {
 	font-family: RobotoCondensed-Bold;
