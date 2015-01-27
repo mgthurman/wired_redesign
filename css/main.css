@@ -75,9 +75,14 @@ li {
 	margin: 0 0 20px 0;
 	padding: 0 0 10px 0;
 }
+.features-container {
+	float: left;
+	width: 54%;
+}
+.hero {
+	float: left;
+}
 .features {
-
+	float: left;
 }
-.fl {
 
-}
