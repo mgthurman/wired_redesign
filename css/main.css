@@ -12,6 +12,9 @@ nav {
 	text-transform: uppercase;
 	width: 1024px;
 }
+ul {
+	padding: 0px;
+}
 li {
 	display: inline-block;
     padding: 10px 10px 0px 10px;
@@ -78,19 +81,39 @@ li {
 .features-container {
 	float: left;
 	padding: 0px 0px 0px 10px;
-	width: 44%;
+	width: 55%;
 }
 .hero {
+	height: 272px;
+	width: 100%;
+	background-image:url('../images/collider.png');
+	background-repeat: no-repeat;
 	float: left;
 }
 .features {
 	float: left;
+	height: 258px;
+	width: 260px;
+	background-repeat: no-repeat;
+	margin: 1px 1px 1px 0px;
+}
+#feature-01 {
+	background-image: url('../images/bezos.png');
+}
+#feature-02 {
+	background-image: url('../images/hololens.png');
+}
+#feature-03 {
+	background-image: url('../images/cocktail.png');
+}
+#feature-04 {
+	background-image: url('../images/nadella.png');
 }
 .current-issue {
 	border: 1px solid #000000;
 	width: 178px;
-	height: 206px;
-	float: left;
+	height: 210px;
+	float: right;
 	font-family: 'Roboto Condensed', sans-serif;
 }
 .ci-inner-block {
@@ -136,4 +159,12 @@ h2 {
 	line-height: 14px;
 	padding: 0.5px 0px 0px 5px;
 	float: left;
+}
+.subscr-links {
+	float: left;
+	font-family: RobotoCondensed-Light;
+	font-size: 12px;
+	color: #000000;
+	line-height: 14px;
+	padding-top: 3px;
 }
