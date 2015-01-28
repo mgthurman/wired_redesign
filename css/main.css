@@ -77,7 +77,8 @@ li {
 }
 .features-container {
 	float: left;
-	width: 54%;
+	padding: 0px 0px 0px 10px;
+	width: 44%;
 }
 .hero {
 	float: left;
@@ -85,4 +86,54 @@ li {
 .features {
 	float: left;
 }
-
+.current-issue {
+	border: 1px solid #000000;
+	width: 178px;
+	height: 206px;
+	float: left;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+.ci-inner-block {
+	width: 150px;
+	padding-left: 15px;
+}
+h1 {
+	text-align: center;
+	font-weight: 700;
+	font-size: 14px;
+	padding: 0px 0px 3px 0px;
+	margin: 0px;
+	border-bottom: 1px solid #000000;
+}
+h2 {
+	padding: 0px;
+	margin-top: 9px;
+	margin-bottom: 1px;
+	font-family: RobotoCondensed-Light;
+	font-size: 10px;
+	color: #000000;
+	line-height: 10px;
+}
+.mag-thumbnail {
+	float: left;
+	padding-right: 2px;
+}
+.mag-title {
+	font-family: RobotoCondensed-Regular;
+	font-size: 11px;
+	color: #000000;
+	line-height: 13px;
+	text-transform: uppercase;
+}
+.look-inside-button {
+	border: 1px solid #979797;
+	width: 63px;
+	height: 16px;
+	background-color: #00ADEE;
+	font-family: Montserrat-Bold;
+	font-size: 8.5px;
+	color: #FFFFFF;
+	line-height: 14px;
+	padding: 0.5px 0px 0px 5px;
+	float: left;
+}
