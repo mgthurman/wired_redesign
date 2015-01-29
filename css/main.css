@@ -20,8 +20,8 @@ li {
     padding: 10px 10px 0px 10px;
 }
 .main {
-	width: 960px;
-	padding: 10px;
+	width: 982px;
+	padding-top: 10px;
 }
 #top-stories-container {
 	float: left;
@@ -75,7 +75,7 @@ li {
 	width: 210px;
 	height: .5px;
 	border-bottom: 1px solid #000000;
-	margin: 0 0 20px 0;
+	margin: 0 0 6px 0;
 	padding: 0 0 10px 0;
 }
 .features-container {
@@ -95,7 +95,16 @@ li {
 	height: 258px;
 	width: 260px;
 	background-repeat: no-repeat;
-	margin: 1px 1px 1px 0px;
+	margin: 4px 6px 0px 0px;
+}
+.features-category {
+	border: 1px solid #FFFFFF;
+	color: #FFFFFF;
+	display: inline-block;
+	font-family: RobotoCondensed-Bold;
+	font-size: 12px;
+	margin: 1px;
+	padding: .5px 3px;
 }
 #feature-01 {
 	background-image: url('../images/bezos.png');
